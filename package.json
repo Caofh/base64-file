@@ -1,0 +1,32 @@
+{
+  "name": "base64-file",
+  "typings": "./base64File.d.ts",
+  "version": "1.0.0",
+  "description": "Plug in for front-end conversion files",
+  "main": "dist/index-min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc  --target es6 ./src/index.ts && rm ./dist/index-min.js && uglifyjs ./src/index.js -m -o ./dist/index-min.js && rm ./src/index.js"
+  },
+  "author": {
+    "name": "曹方晖(caofanghui)"
+  },
+  "license": "MIT",
+  "keywords": [
+    "base64-file",
+    "base64File",
+    "file",
+    "change",
+    "base64",
+    "changeFile",
+    "transFile",
+    "toDataURL",
+    "Blob",
+    "File",
+    "FileReader"
+  ],
+  "devDependencies": {
+    "typescript": "^4.3.5",
+    "uglify-js": "^3.14.0"
+  }
+}
