@@ -1,7 +1,7 @@
 {
   "name": "base64-file",
   "typings": "./base64File.d.ts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plug in for front-end conversion files",
   "main": "dist/index-min.js",
   "scripts": {
@@ -10,6 +10,11 @@
   },
   "author": {
     "name": "曹方晖(caofanghui)"
+  },
+  "homepage": "https://github.com/Caofh/base64-file",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Caofh/base64-file.git"
   },
   "license": "MIT",
   "keywords": [

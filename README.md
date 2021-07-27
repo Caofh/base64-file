@@ -6,7 +6,7 @@
 npm install base64-file -S
 ```
 ## 二：use
-### 1、网图转成base64<font face="黑体" color=red>（注意：图片资源必须是允许跨域访问的资源，否则回报跨域问题）</font>
+### 1、网图转成base64<font face="黑体" color=red>（注意：图片资源必须是允许跨域访问的资源，否则会报跨域问题）</font>
 ```
 import { imageUrlToBase64 } from 'base64-file'
 const imageUrl = `https://tpdoc.cn/erp/uploads/image/self/cao_admin_carousel.png`
