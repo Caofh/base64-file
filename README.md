@@ -58,4 +58,7 @@ fileToBase64(file).then((base64) => {
   console.log(blob)
 })
 ```
-
+## 三：Contributors
+### These amazing people have contributed code to this project:
+#### <a href="https://github.com/Caofh">Caofanghui</a>
+#### <a href="https://github.com/woyangv">Liyang</a>
